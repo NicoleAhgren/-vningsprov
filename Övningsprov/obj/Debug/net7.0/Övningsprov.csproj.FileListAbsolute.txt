@@ -1,0 +1,15 @@
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\bin\Debug\net7.0\Övningsprov.exe
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\bin\Debug\net7.0\Övningsprov.deps.json
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\bin\Debug\net7.0\Övningsprov.runtimeconfig.json
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\bin\Debug\net7.0\Övningsprov.dll
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\bin\Debug\net7.0\Övningsprov.pdb
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\obj\Debug\net7.0\Övningsprov.csproj.AssemblyReference.cache
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\obj\Debug\net7.0\Övningsprov.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\obj\Debug\net7.0\Övningsprov.AssemblyInfoInputs.cache
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\obj\Debug\net7.0\Övningsprov.AssemblyInfo.cs
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\obj\Debug\net7.0\Övningsprov.csproj.CoreCompileInputs.cache
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\obj\Debug\net7.0\Övningsprov.dll
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\obj\Debug\net7.0\refint\Övningsprov.dll
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\obj\Debug\net7.0\Övningsprov.pdb
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\obj\Debug\net7.0\Övningsprov.genruntimeconfig.cache
+c:\Users\ahgren.nicole\Documents\skola\Övningsprov\Övningsprov\obj\Debug\net7.0\ref\Övningsprov.dll
