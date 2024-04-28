@@ -9,9 +9,9 @@ public class Attacks
     public int stamina = 0;
 public int schackSpel() //Intelligens
 {
-    int resultat = Random.Shared.Next(0, 10) + intelligence;
+    int resultat = Random.Shared.Next(0, 10) + intelligence; //lägger ihop intelligens och random nummer
 
-    if (resultat > 20)
+    if (resultat > 20) // gör så det inte kan bli mer än 20
     {
         return 20;
     }
@@ -23,9 +23,9 @@ public int schackSpel() //Intelligens
 
 public int brottningsMatch() //Tålighet och styrka
 {
-        int resultat = Random.Shared.Next(0, 10) + strength + stamina;
+        int resultat = Random.Shared.Next(0, 10) + strength + stamina;//lägger ihop styrka, tålighet och random nummer
 
-    if (resultat > 20)
+    if (resultat > 20) 
     {
         return 20;
     }
@@ -37,7 +37,7 @@ public int brottningsMatch() //Tålighet och styrka
 
 public int armbrytningsMatch() //Styrka
 {
-        int resultat = Random.Shared.Next(0, 10) + strength;
+        int resultat = Random.Shared.Next(0, 10) + strength; //lägger ihop styrka och random nummer
 
     if (resultat > 20)
     {

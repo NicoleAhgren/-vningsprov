@@ -5,7 +5,7 @@ public class Zombies: Attacks
     public int intelligence = 0;
     public int strength = 0;
     public int stamina = 0;
-public void TickZ()
+public void TickZ() //Ger dom random värden
 {
     intelligence += generator.Next(16);
     strength += generator.Next(11);

@@ -2,14 +2,14 @@
 public class Dinosaur:Attacks
 {
     
-    Random generator = new Random();
+    Random generator = new Random(); 
     public int intelligence = 0;
     public int strength = 0;
     public int stamina = 0;
 
-public void TickD()
+public void TickD() //ger de random värden
 {
-    intelligence += generator.Next(16);
+    intelligence += generator.Next(16); 
     strength += generator.Next(11);
     stamina += generator.Next(6);
 

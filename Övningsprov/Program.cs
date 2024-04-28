@@ -1,8 +1,8 @@
 ﻿using System;
 using Övningsprov;
 
-List<Dinosaur> dinosaurs = new List<Dinosaur>();
-List<Zombies> zombie = new List<Zombies>();
+List<Dinosaur> dinosaurs = new List<Dinosaur>(); 
+List<Zombies> zombie = new List<Zombies>(); 
 
 int number = 0;
 bool success = false;
@@ -28,12 +28,14 @@ for(int i = 0; i < number; i++) //Skapar anatlet zombies och dinosaurier som skr
     dinosaurs.Add(Dino);
 }
 
-Console.WriteLine("You created " +  zombie.Count() + " zombies.");
+Console.WriteLine("You created " +  zombie.Count() + " zombies."); //Skriver ut hur många som skapats
 Console.WriteLine("Created " + dinosaurs.Count() + " dinosaurs." );
+
+Console.ReadLine();
+break; // Avslutar loopen
 
 }
 
-Console.ReadLine();
 
 
 
