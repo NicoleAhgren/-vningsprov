@@ -1,38 +1,44 @@
 ﻿using System;
+using Övningsprov;
 
-List<string> texts = new List<string>();
+List<Dinosaur> dinosaurs = new List<Dinosaur>();
+List<Zombies> zombie = new List<Zombies>();
 
-for(int i = 0; i < 5; i++)
+int number = 0;
+bool success = false;
+
+while (success == false) //Tar in antalet zombis och dinosaurier dom väljer
 {
-    string words = GetText(2, 7);
-    texts.Add(words);
-}
-Console.WriteLine("");
-texts.Reverse();
+    Console.WriteLine("Type in how many zombies and dinosaurs you want in the teams");
+    string input = Console.ReadLine();
 
-for(int i = 0; i < texts.Count; i++)
+    success = int.TryParse(input, out number);
+
+    if (success && number < 1)
+    {
+        success = false;
+    }
+
+for(int i = 0; i < number; i++) //Skapar anatlet zombies och dinosaurier som skrevs in
 {
-    Console.WriteLine(texts[i]);
+    Zombies Zom = new Zombies();
+    Dinosaur Dino = new Dinosaur();
+
+    zombie.Add(Zom);
+    dinosaurs.Add(Dino);
 }
+
+Console.WriteLine("You created " +  zombie.Count() + " zombies.");
+Console.WriteLine("Created " + dinosaurs.Count() + " dinosaurs." );
+
+}
+
 Console.ReadLine();
 
-static string GetText(int min, int max)
-{
-    string userinput = "";
 
-    while(userinput.Length < min || userinput.Length > max)
-    {
-        Console.WriteLine($"Skrv ett ord som är mellan {min} - {max} bokstäver!");
-        userinput = Console.ReadLine();
 
-        if (userinput.Length < min)
-        {
-            Console.WriteLine("Det är för kort!");
-        }
-        else if (userinput.Length > max)
-        {
-            Console.WriteLine("Det är för långt");
-        }
-    }
-    return userinput;
-}
+
+
+
+
+
